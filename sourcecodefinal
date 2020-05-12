@@ -53,8 +53,8 @@
     form.setAttribute('action', oauth2Endpoint);
 
     // Parameters to pass to OAuth 2.0 endpoint.
-    var params = {'client_id': YOUR_CLIENT_ID,
-                  'redirect_uri': YOUR_REDIRECT_URI,
+    var params = {'client_id': 160274497767-f5kcuf2fdk5grmas46qtvj3gf9o47elq.apps.googleusercontent.com,
+                  'redirect_uri': 3QNYSk9n-7YDMtLM0biT6aBn,
                   'scope': 'https://www.googleapis.com/auth/drive.metadata.readonly',
                   'state': 'try_sample_request',
                   'include_granted_scopes': 'true',
