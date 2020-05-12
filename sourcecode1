@@ -1,1 +1,14 @@
-sourcecode one
+var GoogleAuth; // Google Auth object.
+function initClient() {
+  gapi.client.init({
+      'apiKey': 3QNYSk9n-7YDMtLM0biT6aBn,
+      'clientId': 160274497767-f5kcuf2fdk5grmas46qtvj3gf9o47elq.apps.googleusercontent.com,
+      'scope': 'https://www.googleapis.com/auth/drive.metadata.readonly',
+      'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest']
+  }).then(function () {
+      GoogleAuth = gapi.auth2.getAuthInstance();
+
+      // Listen for sign-in state changes.
+      GoogleAuth.isSignedIn.listen(updateSigninStatus);
+  });
+}
