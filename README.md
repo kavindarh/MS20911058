@@ -2,7 +2,7 @@
 # H M P K Ranjan Kumara Herath
 # Final Assignment
 # ID: MS20911058
-# Faculty of Computing - Software Security
+# Faculty of Computing - Software Security (SS)
 # Sri Lanka Institute of information Technology
 # Malabe, Sri Lanka
 # MS20911058@my.sliit.lk
